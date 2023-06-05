@@ -18,7 +18,7 @@ function sendMessage() {
         return;
     }
     // if message = developer - show our message
-    else if (message === 'developer') {
+    else if (message === 'developer' || message === 'Developer') {
         // clear input value
         userInput.value = '';
         // append message as user - we will code it's function
